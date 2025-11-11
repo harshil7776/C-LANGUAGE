@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+void squareNo()
+{
+    int i;
+
+    for(i=1;i<=10;i++)
+    {
+        printf("%d ^ 2 = %d\n",i,i*i);
+    }
+}
+
+int main()
+{
+    squareNo();
+
+    return 0;
+}
